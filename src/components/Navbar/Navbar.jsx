@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../../assets/LogoPrincipal.png';
+import Logo from '../../assets/LogoPrincipal2.png';
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping, FaCaretDown, FaBars } from 'react-icons/fa6';
 const Menu = [
@@ -57,7 +57,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div className="shadow-md bg-[#090527] text-white duration-200 relative z-40">
       
       {/* Upper Navbar */}
       <div className="bg-primary/40 py-2">
@@ -106,7 +106,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* Lower Navbar */}
-      <div className={`bg-white dark:bg-gray-800 py-2 ${menuOpen ? 'block' : 'hidden'} sm:block`}>
+      <div className={`bg-[#0a081d] py-2 ${menuOpen ? 'block' : 'hidden'} sm:block`}>
         <ul className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 text-sm font-medium items-center">
           {Menu.map((data) => (
             <li key={data.name}>
