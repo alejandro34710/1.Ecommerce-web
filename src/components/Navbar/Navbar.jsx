@@ -129,15 +129,15 @@ const Navbar = () => {
             </a>
 
             {/* Contenedor del dropdown */}
-            <div className="absolute top-full left-0 bg-white dark:bg-gray-800 shadow-md rounded-md py-2 w-40 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
-              <ul className="text-sm">
-                {DropdownLinks.map((data) => (
-                  <li key={data.id}>
-                    <a
-                      href={data.link}
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                    >
-                      {data.name}
+           <div className="absolute top-full left-0 bg-[#090527] dark:bg-gray-800 text-gray-800 shadow-md rounded-md py-2 w-40 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
+            <ul className="text-sm">
+             {DropdownLinks.map((data) => (
+              <li key={data.id}>
+                <a
+                  href={data.link}
+                  className="block px-4 py-2 hover:bg-[#101027] text-white hover:text-sky-200 transition-colors"
+                >
+                {data.name}
                     </a>
                   </li>
                 ))}
