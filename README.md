@@ -37,7 +37,15 @@ components/
 App.jsx
 main.jsx
 index.css
-## 📦 Instalación y ejecución local
+
+🙌 Autor
+Desarrollado por Alejandro34710 – ¡Gracias por visitar este proyecto!
+
+yaml
+Copiar
+Editar
+
+---
 
 1. Clona el repositorio:
 ```bash
