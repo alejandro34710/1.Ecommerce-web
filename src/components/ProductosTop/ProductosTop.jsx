@@ -52,7 +52,7 @@ const ProductosTop = () => {
         <div
         data-aos="fade-up" data-aos-delay={productos.aosDelay} key={productos.id}
         className="relative bg-white shadow-xl/20 rounded-lg 
-        transition-all duration-300 hover:bg-gray-800 group pt-16"
+        transition-all duration-300 hover:bg-gray-800 group pt-16 w-full"
         >
         {/* Imagen */}
         <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
