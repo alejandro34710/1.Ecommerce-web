@@ -29,7 +29,13 @@ const App = () => {
       
       <Hero />
       <Productos />
-      
+      <Suscripción />
+      <Productos2 />
+      <Testimonios />
+      <Footer />
+      <Banner />
+      <ProductosTop />
+
       
       
     </div>
