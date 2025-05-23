@@ -40,7 +40,6 @@ const testimoniosData = [
   },
 ];
 
-
 const Testimonios = () => {
   const settings = {
     dots: true,
@@ -80,49 +79,65 @@ const Testimonios = () => {
   };
 
   return (
-    <section className="py-16 bg-[#112240] ">
-      <div className="max-w-7xl mx-auto px-4">
-        {/* Header */}
-        <div data-aos="fade-up" className="text-center mb-12">
-          <p className="text-base text-white font-semibold">
-            Que dicen nuestros clientes
-          </p>
-          <h2 className="text-4xl font-bold text-white mt-2">Testimonios</h2>
-          <p className="text-sm text-gray-300 mt-2 max-w-xl mx-auto">
-            Nuestros clientes comparten su experiencia con nuestros productos de tecnología.
-          </p>
-        </div>
+    <>
+      <section className="py-16 bg-[#112240]">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Header */}
+          <div data-aos="fade-up" className="text-center mb-12">
+            <p className="text-base text-white font-semibold">
+              Que dicen nuestros clientes
+            </p>
+            <h2 className="text-4xl font-bold text-white mt-2">Testimonios</h2>
+            <p className="text-sm text-gray-300 mt-2 max-w-xl mx-auto">
+              Nuestros clientes comparten su experiencia con nuestros productos de tecnología.
+            </p>
+          </div>
 
-        {/* Slider */}
-        <Slider {...settings}>
-          {testimoniosData.map((testimonio) => (
-            <div data-aos="zoom-in" className='my-6'>
-             <div 
-                key={testimonio.id} className="flex flex-col gap-5 shadow-xl/10 
-                py-12 px-8 mx-4 rounded-xl relative bg-[#ffffff]"
-                >
-                <div className="mb-4">
-                  <img
-                    className='rounded-full w-20 h-20'
-                    src={testimonio.img}
-                    alt={testimonio.name}
-                  />
-                </div>
-                <div className='flex flex-col items-center gap-4'>
-                  <div className='space-y-10'>
-                    <p className="text-sm text-gray-700 mb-4">"{testimonio.text}"</p>
-                    <h3 className="text-lg font-semibold text-gray-800">{testimonio.name}</h3>
-                 </div>
-                </div>
-                <p className='text-black/20 text-9xl font-serif absolute top-0 right-0'>
+          {/* Slider */}
+          <Slider {...settings}>
+            {testimoniosData.map((testimonio) => (
+              <div data-aos="zoom-in" className='my-6' key={testimonio.id}>
+                <div className="flex flex-col gap-5 shadow-xl/10 
+                    py-12 px-8 mx-4 rounded-xl relative bg-[#ffffff]">
+                  <div className="mb-4">
+                    <img
+                      className='rounded-full w-20 h-20'
+                      src={testimonio.img}
+                      alt={testimonio.name}
+                    />
+                  </div>
+                  <div className='flex flex-col items-center gap-4'>
+                    <div className='space-y-10'>
+                      <p className="text-sm text-gray-700 mb-4">"{testimonio.text}"</p>
+                      <h3 className="text-lg font-semibold text-gray-800">{testimonio.name}</h3>
+                    </div>
+                  </div>
+                  <p className='text-black/20 text-9xl font-serif absolute top-0 right-0'>
                     ,,
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </section>
+            ))}
+          </Slider>
+        </div>
+      </section>
+
+      {/* Estilos para los dots */}
+      <style>
+        {`
+          .slick-dots li button:before {
+            font-size: 10px;
+            color: #ffffff;
+            opacity: 0.6;
+          }
+
+          .slick-dots li.slick-active button:before {
+            color: #2c2f87;
+            opacity: 1;
+          }
+        `}
+      </style>
+    </>
   );
 };
 
