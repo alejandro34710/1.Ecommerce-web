@@ -64,7 +64,7 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
           
         {/* Logo */}
-        <div className="pl-4 sm:pl-8">
+        <div className="pl-6 sm:pl-8">
           <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2 items-center">
           <img src={Logo} alt="Logo" className="w-10 object-contain" />
           </a>
@@ -78,7 +78,7 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Buscar"
-                className="w-[200px] group-hover:w-[250px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none bg-white text-black"
+                className="w-[150px] group-hover:w-[250px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none bg-white text-black"
               />
               <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
