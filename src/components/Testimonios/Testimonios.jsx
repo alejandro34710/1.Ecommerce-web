@@ -96,7 +96,7 @@ const Testimonios = () => {
           {/* Slider */}
           <Slider {...settings}>
             {testimoniosData.map((testimonio) => (
-              <div data-aos="zoom-in" className='my-6' key={testimonio.id}>
+              <div data-aos="zoom-in" className='my-6 px-2' key={testimonio.id}>
                 <div className="flex flex-col gap-5 shadow-xl/10 
                     py-12 px-8 mx-4 rounded-xl relative bg-[#ffffff]">
                   <div className="mb-4">
