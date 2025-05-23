@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="relative text-white bg-gradient-to-t from-black  bg-gray-900 py-16">
       {/* Contenido del footer */}
-      <div data-aos="zoom-in" className="relative max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div data-aos="zoom-in" className="relative max-w-7xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
         
         {/* Logo y descripción */}
         <div>
