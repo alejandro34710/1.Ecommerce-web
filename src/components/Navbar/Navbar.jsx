@@ -63,12 +63,12 @@ const Navbar = () => {
       <div className="bg-primary/40 py-2">
         <div className="container flex justify-between items-center">
           
-          {/* Logo */}
-          <div className="pl-8">
-            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-              <img src={Logo} alt="Logo" className="w-10" />
-            </a>
-          </div>
+        {/* Logo */}
+        <div className="pl-4 sm:pl-8">
+          <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2 items-center">
+          <img src={Logo} alt="Logo" className="w-10 object-contain" />
+          </a>
+        </div>
 
           {/* Buscar y Botón */}
           <div className="flex items-center gap-4">
@@ -96,7 +96,7 @@ const Navbar = () => {
               <FaCartShopping className='text-xl drop-shadow-sm cursor-pointer' />
             </button>
                {/* Botón menu */}
-      <div className="sm:hidden flex justify-end px-4 py-2">
+      <div className="sm:hidden flex justify-end px-4 ">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           <FaBars className={`text-2xl ${menuOpen ? 'text-blue-500' : 'text-white'} transition-colors duration-200`} />
 
