@@ -82,7 +82,7 @@ const Hero = () => {
                     loading="lazy"
                     src={data.img}
                     alt="Producto"
-                    className="w-[390px] h-[280px] sm:w-[800px] sm:h-[400px] 
+                    className="w-[350px] h-[280px] sm:w-[800px] sm:h-[400px] 
                     object-cover rounded-2xl shadow-xl border border-gray-700"
                   />
                 </div>
