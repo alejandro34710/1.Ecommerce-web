@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
          {/* Imagen sección */}
           <div data-aos="fade-up" className="overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-500 
-          w-[400px] sm:w-[450px] md:w-[450px] lg:w-[550px] ml-10 sm:ml-[60px]">
+          w-[300px] sm:w-[450px] md:w-[450px] lg:w-[550px] ml-10 sm:ml-[60px]">
             <img 
               src={BannerImg}
               alt=""
