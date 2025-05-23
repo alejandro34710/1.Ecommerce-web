@@ -29,12 +29,15 @@ const App = () => {
       
       <Hero />
       <Productos />
+      <ProductosTop />
       <Suscripción />
       <Productos2 />
+      <Banner />
       <Testimonios />
       <Footer />
-      <Banner />
-      <ProductosTop />
+      
+      
+      
 
       
       
