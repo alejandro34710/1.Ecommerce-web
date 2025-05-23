@@ -61,10 +61,10 @@ const Navbar = () => {
       
       {/* Upper Navbar */}
       <div className="bg-primary/40 py-2">
-        <div className="container max-w-7xl mx-auto px-4 flex justify-between items-center">
+        <div className="container flex justify-between items-center">
           
           {/* Logo */}
-          <div className="pl-4">
+          <div className="pl-8">
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
             </a>
@@ -129,7 +129,7 @@ const Navbar = () => {
             </a>
 
             {/* Contenedor del dropdown */}
-           <div className="absolute top-full left-0 bg-[#090527] dark:bg-gray-800 text-gray-800 shadow-md rounded-md py-2 w-40 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
+           <div className="absolute top-full left-0 bg-[#090425] dark:bg-gray-800 text-gray-800 shadow-md rounded-md py-2 w-40 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
             <ul className="text-sm">
              {DropdownLinks.map((data) => (
               <li key={data.id}>
