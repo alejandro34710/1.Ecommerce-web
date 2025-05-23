@@ -5,7 +5,7 @@ const BannerImg = {
    backgroundImage: `url(${Banner})`,
   backgroundPosition: "top",
   backgroundRepeat: "no-repeat",
-  backgroundSize: "1500px ", 
+  backgroundSize: "cover ", 
   width: "100%",
 };
 
