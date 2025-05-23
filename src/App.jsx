@@ -30,7 +30,7 @@ const App = () => {
       <Hero />
       <Productos />
       <ProductosTop />
-      <Banner />
+      
       
     </div>
   )
