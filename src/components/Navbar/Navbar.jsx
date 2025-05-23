@@ -64,14 +64,14 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
           
         {/* Logo */}
-        <div className="pl-6 sm:pl-8">
+        <div className="pl-4 sm:pl-8">
           <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2 items-center">
           <img src={Logo} alt="Logo" className="w-10 object-contain" />
           </a>
         </div>
 
           {/* Buscar y Botón */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
 
             {/* Campo de búsqueda */}
             <div className="relative group block">
