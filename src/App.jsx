@@ -29,7 +29,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Productos />
-      <ProductosTop />
+      
       
       
     </div>
