@@ -31,10 +31,7 @@ const App = () => {
       <Productos />
       <ProductosTop />
       <Banner />
-      <Suscripción />
-      <Productos2 />
-      <Testimonios />
-      <Footer />
+      
     </div>
   )
 }
